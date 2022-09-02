@@ -15,7 +15,7 @@ body {
 
 
 .main-navbar {
-    background-color: rgba(8, 8, 8, 0.856);
+    background-color: #002B5B;
 }
 
 .navbar-brand img {
@@ -43,7 +43,7 @@ body {
     width: 90%;
     border-radius: 50%;
     overflow: hidden;
-    border: 10px solid #0e0d0d;
+    border: 10px solid #c91919;
     transform: rotate(5deg);
 }
 
@@ -84,6 +84,12 @@ body {
     color: #c91919;
 }
 
+.name-2 {
+    font-size: 40px;
+    font-family: var(--roboto);
+    text-align: center;
+    color: #e4dcdc;
+}
 
 .job {
     font-size: 90px;
@@ -197,9 +203,14 @@ table {
     margin-left: 10px;
 }
 
+.icon-text-1 {
+    color: #fff;
+    margin-left: 30px;
+}
+
 .c-text {
     color: rgb(241, 233, 233);
-    font-size: 30px;
+    font-size: 40px;
 }
 .c-text span {
     color: var(--primary);
@@ -213,7 +224,7 @@ table {
 .footer {
     height: 50px;
     width: 100vw;
-    background-color: black;
+    background-color: #002B5B;
     display: flex;
     align-items: center;
 }
@@ -408,8 +419,8 @@ table {
 
 .wht {
     position: absolute; 
-    top: 284.5%;
-    margin: 0 1px;   
+    left: 4.6%; 
+    margin: -9px;   
     font-size: 35px;
     color: #c91919;
 }
