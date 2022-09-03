@@ -1,3 +1,4 @@
+/* estilização do fundo do site */
 :root {
     --primary: #0c0b0b;
     --secondary: #084177;
@@ -6,14 +7,14 @@
     background-size: 300% 300%;
     animation: colors 10s ease infinite;
 }
-
+/* estilização do corpo */
 body {
     background-color: var(--secondary);
     height: 100vh;
     overflow-x: hidden;
 }
 
-
+/* estilização das fontes */
 .main-navbar {
     background-color: #002B5B;
 }
@@ -122,8 +123,6 @@ body {
     }
 }
 
-/* about */
-
 .sm-title {
     color: var(--primary);
     font-size: 25px;
@@ -185,7 +184,7 @@ table {
     color: rgb(238, 230, 230);
 
 }
-
+/* estilização do cartões */
 .card {
    background: #f3f4f7; 
    border-top: 2px solid rgba(185, 10, 10, 0.733);
@@ -237,7 +236,7 @@ table {
  .footer a span {
      color: var(--primary);
  }
-
+/* estilização do ícone facebook */
  .face {
     position: absolute; 
     width: 20px;
@@ -270,7 +269,7 @@ table {
  .face a:hover > i {
     transform: scale(1.6) rotate(25deg);
  }
-
+/* estilização do ícone instagram */
  .ins {
     position: absolute; 
     width: 20px;
@@ -302,7 +301,7 @@ table {
 .ins a:hover > i {
     transform: scale(1.6) rotate(25deg);
  }
-
+/* estilização do ícone linkedin */
 .In {
     position: absolute; 
     width: 20px;
@@ -334,7 +333,7 @@ table {
 .In a:hover > i {
     transform: scale(1.6) rotate(25deg);
  }
-
+/* estilização do ícone twitter */
 .twi {
     position: absolute; 
     width: 20px;
@@ -366,7 +365,7 @@ table {
 .twi a:hover > i {    
     transform: scale(1.6) rotate(25deg);
  }
-
+/* estilização do ícone github */
  .git {
     position: absolute; 
     width: 20px;
@@ -413,7 +412,7 @@ table {
     
 }
 .mb-0{
-    font-size: 50px; 
+    font-size: 60px; 
     text-align: center;
 }
 
@@ -424,3 +423,13 @@ table {
     font-size: 35px;
     color: #c91919;
 }
+
+.jumbotron-heading-1{
+    color: #c91919;
+    font-size: 60px;
+}
+
+.btn-darky {
+
+    background: #c91919;
+ }
